@@ -1,0 +1,75 @@
+{
+  "siteTitle": "My Webite",
+  "navLinks": ["Home", "Features", "About", "Testimonials", "Contact"],
+  "hero": {
+    "title": "Hello! Here Is My First Website",
+    "subtitle": "Modern websites that empower your business with technology and creativity.",
+    "buttonText": "Explore Now",
+    "backgroundImage": "assets/cloud-computing-illustration-technology.jpg"
+  },
+  "features": {
+    "title": "Our Premium Features",
+    "list": [
+      {
+        "icon": "⚡",
+        "title": "Lightning Fast",
+        "desc": "Experience blazing speed and smooth interactions with optimized performance."
+      },
+      {
+        "icon": "🔒",
+        "title": "Secure by Design",
+        "desc": "Built with advanced encryption and best security practices."
+      },
+      {
+        "icon": "🎨",
+        "title": "Beautiful UI",
+        "desc": "Modern and elegant user interface with clean visuals."
+      },
+      {
+        "icon": "📱",
+        "title": "Fully Responsive",
+        "desc": "Your website looks perfect on any screen — phone, tablet, or desktop."
+      },
+      {
+        "icon": "☁️",
+        "title": "Cloud Integrated",
+        "desc": "Seamless integration with cloud technologies for performance."
+      },
+      {
+        "icon": "🧠",
+        "title": "Smart Automation",
+        "desc": "Automate tasks and workflows with cutting-edge intelligence."
+      }
+    ]
+  },
+  "about": {
+    "title": "About NovaWeb",
+    "text": "At NovaWeb, we believe in blending creativity and technology to craft exceptional digital experiences. Our mission is to empower businesses to stand out online through speed, design, and innovation.",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "list": [
+      {
+        "name": "Sarah Khan",
+        "feedback": "NovaWeb transformed our online presence — fast, responsive, and beautiful!",
+        "image": "https://randomuser.me/api/portraits/women/68.jpg"
+      },
+      {
+        "name": "John Ahmed",
+        "feedback": "Professional team, amazing designs, and top-notch performance!",
+        "image": "https://randomuser.me/api/portraits/men/45.jpg"
+      },
+      {
+        "name": "Ayesha Malik",
+        "feedback": "They made our website feel premium and super fast. Loved it!",
+        "image": "https://randomuser.me/api/portraits/women/81.jpg"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We’d love to hear from you. Drop us a message below!"
+  },
+  "footer": "© 2025 NovaWeb. All rights reserved."
+}

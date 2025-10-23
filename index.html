@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header id="navbar" class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+    <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 id="siteTitle" class="text-2xl font-bold text-blue-600"></h1>
+      <ul id="navLinks" class="hidden md:flex space-x-8 font-medium"></ul>
+      <button id="menuBtn" class="md:hidden text-blue-600 text-3xl">☰</button>
+    </nav>
+    <ul id="mobileMenu" class="md:hidden hidden bg-blue-600 text-white space-y-4 p-4"></ul>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="h-screen flex flex-col justify-center items-center text-center text-white relative overflow-hidden">
+    <div class="absolute inset-0 bg-cover bg-center opacity-80" id="heroBg"></div>
+    <div class="relative z-10 max-w-2xl">
+      <h2 id="heroTitle" class="text-4xl md:text-6xl font-extrabold mb-4"></h2>
+      <p id="heroSubtitle" class="text-lg md:text-xl mb-6"></p>
+      <button id="heroBtn" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-blue-100 transition"></button>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8" id="featuresTitle"></h2>
+      <div id="featuresList" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6 md:flex items-center gap-8">
+      <div class="md:w-1/2">
+        <img id="aboutImage" src="" alt="About" class="rounded-xl shadow-lg w-full" />
+      </div>
+      <div class="md:w-1/2 mt-8 md:mt-0">
+        <h2 id="aboutTitle" class="text-3xl font-bold mb-4"></h2>
+        <p id="aboutText" class="text-lg text-gray-700 leading-relaxed"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-20 bg-blue-50">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 id="testimonialsTitle" class="text-3xl font-bold text-gray-800 mb-8"></h2>
+      <div id="testimonialsList" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-blue-600 text-white text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 id="contactTitle" class="text-3xl font-bold mb-6"></h2>
+      <p id="contactSubtitle" class="mb-8"></p>
+      <form class="bg-white rounded-lg shadow-lg p-6 text-gray-800 max-w-lg mx-auto">
+        <input type="text" placeholder="Your Name" class="w-full p-3 border rounded mb-4" />
+        <input type="email" placeholder="Your Email" class="w-full p-3 border rounded mb-4" />
+        <textarea placeholder="Your Message" class="w-full p-3 border rounded mb-4"></textarea>
+        <button class="bg-blue-600 text-white px-6 py-3 rounded font-semibold hover:bg-blue-700 transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="bg-blue-600 text-white py-6 text-center mt-12">
+    <p id="footerText" class="text-sm"></p>
+  </footer>
+
+  <!-- External JS -->
+  <script src="./script.js"></script>
+</body>
+</html>
